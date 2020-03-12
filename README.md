@@ -100,3 +100,31 @@ axios请求拦截
 ```markdown
   axios.all([],[]).then(axios).spread(()=>{})
 ```
+
+> **axios** 创建实例
+
+```vue
+  axios.create({
+    baseURL: 'http://xxx.com', // 总地址
+    url: '/url',    // url地址
+    method: 'get',    // 请求类型
+    headers: {
+      token: ''     // 设置请求头
+    },
+    params: {
+      id: 123       // 设置请求参数
+    },
+    timeout: 2000     // 请求超时时间设置，时间一过没获取数据 出现 401报错
+  })
+```
+
+> **axios** 拦截器
+
+- 在请求或响应被处理前拦截
+
+```markdown
+```
+
+koa搭建RESTful接口规则
+-
+

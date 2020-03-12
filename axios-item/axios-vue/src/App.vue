@@ -8,7 +8,9 @@
       <router-link to="/put">Put所有更新</router-link>|
       <router-link to="/patch">Patch提交更新</router-link>|
       <router-link to="/delete">Delete删除</router-link>|
-      <router-link to="/all">并发请求</router-link>
+      <router-link to="/all">并发请求</router-link> |
+      <router-link to='/create'>axios创建实例</router-link> |
+      <router-link to='/instance'>拦截器</router-link>
     </div>
     <transition name="transitionRouter">
       <router-view />
