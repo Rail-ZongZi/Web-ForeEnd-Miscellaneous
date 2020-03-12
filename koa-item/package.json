@@ -1,0 +1,16 @@
+{
+  "name": "koa-item",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "nodemon": "^2.0.2"
+  }
+}
