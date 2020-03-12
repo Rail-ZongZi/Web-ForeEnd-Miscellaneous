@@ -2,7 +2,12 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/get">Get请求</router-link> |
+      <router-link to="/post">Post提交</router-link> |
+      <router-link to="/put">Put所有更新</router-link> |
+      <router-link to="/patch">Patch提交更新</router-link> |
+      <router-link to="/delete">Delete提交更新</router-link>
     </div>
     <router-view/>
   </div>
