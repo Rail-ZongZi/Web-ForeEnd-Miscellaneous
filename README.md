@@ -128,3 +128,11 @@ axios请求拦截
 koa搭建RESTful接口规则
 -
 
+> 安全
+
+- HTTPS
+
+- 鉴权 （只有登录才可以访问）
+
+- 限流 （Token 、JWT 、OAutn）
+  
