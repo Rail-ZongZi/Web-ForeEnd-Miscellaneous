@@ -1,6 +1,6 @@
 <template>
-  <div class="delete">
-    <h1>delete删除方法</h1>
+  <div class="all">
+    <h1>并发请求</h1>
   </div>
 </template>
 

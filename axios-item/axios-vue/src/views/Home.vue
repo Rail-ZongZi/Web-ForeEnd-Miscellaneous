@@ -6,7 +6,7 @@
   </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
 import axios from 'axios'
@@ -29,3 +29,6 @@ export default {
   }
 }
 </script>
+
+<style lang="less" scoped rel="stylesheet/less">
+</style>

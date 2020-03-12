@@ -42,6 +42,11 @@ const routes = [
     path: '/delete',
     name: 'Delete',
     component: () => import('../views/Delete.vue')
+  },
+  {
+    path: '/all',
+    name: 'All',
+    component: () => import('../views/All.vue')
   }
 ]
 
